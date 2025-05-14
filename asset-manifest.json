@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/exclusive/static/css/main.5eb0093a.css",
+    "main.js": "/exclusive/static/js/main.deaf872e.js",
+    "static/media/hero_endframe__cvklg0xk3w6e_large 2.jpg": "/exclusive/static/media/hero_endframe__cvklg0xk3w6e_large 2.66deaea5a2b400060e32.jpg",
+    "static/media/1200px-Apple_gray_logo 1.svg": "/exclusive/static/media/1200px-Apple_gray_logo 1.45d1b58a33c2669e6b98fa884d729572.svg",
+    "static/media/Icon-Twitter.svg": "/exclusive/static/media/Icon-Twitter.585c2165caacfb295213f8e98daa5f9c.svg",
+    "static/media/Icon-secure.svg": "/exclusive/static/media/Icon-secure.3542321b7402e989bd0dd365d88f1517.svg",
+    "static/media/icon-delivery.svg": "/exclusive/static/media/icon-delivery.d1e1c42727ed2854b9580cc3f0a3fbeb.svg",
+    "static/media/icon-delivery (1).svg": "/exclusive/static/media/icon-delivery (1).1d7cd638d13311577c212097eb0235db.svg",
+    "static/media/Icon-Customer service (1).svg": "/exclusive/static/media/Icon-Customer service (1).01336980ce40f727ea6a21d3a3044b1f.svg",
+    "static/media/icon-instagram.svg": "/exclusive/static/media/icon-instagram.35af9a7746d339a78f1f428a964c6ab7.svg",
+    "static/media/Cart1 with buy.svg": "/exclusive/static/media/Cart1 with buy.d40e3f0b9a3d7d0dd6a228b50f3e2de0.svg",
+    "index.html": "/exclusive/index.html",
+    "static/media/Icon-return.svg": "/exclusive/static/media/Icon-return.77e60af0ccc720cdabb0959cfde8ea39.svg",
+    "static/media/Icon-Linkedin.svg": "/exclusive/static/media/Icon-Linkedin.b37bc40385b859d44e0e272e507a5606.svg",
+    "static/media/Group.svg": "/exclusive/static/media/Group.c8819ad0f69b576fac0ae111de195523.svg",
+    "static/media/Search.svg": "/exclusive/static/media/Search.fd8a2a65b51e80158429d21ad79efb4b.svg",
+    "static/media/bars-solid.svg": "/exclusive/static/media/bars-solid.9b78131fc0c8f559c52804ec61844e55.svg",
+    "static/media/Wishlist (1).svg": "/exclusive/static/media/Wishlist (1).a8d8daadd720b7965c5f0c6d29643530.svg",
+    "static/media/icon-send.svg": "/exclusive/static/media/icon-send.d0df9dfb5016978671a92d173ccc6768.svg",
+    "static/media/Icon-Facebook.svg": "/exclusive/static/media/Icon-Facebook.90636f60afb9f3e2e04d8c82e843c216.svg",
+    "static/media/Vector (14).svg": "/exclusive/static/media/Vector (14).c4bd0c57b9ea40fe2665365748b14b45.svg",
+    "main.5eb0093a.css.map": "/exclusive/static/css/main.5eb0093a.css.map",
+    "main.deaf872e.js.map": "/exclusive/static/js/main.deaf872e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5eb0093a.css",
+    "static/js/main.deaf872e.js"
+  ]
+}

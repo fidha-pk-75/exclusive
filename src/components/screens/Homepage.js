@@ -50,7 +50,7 @@ export default function Homepage() {
               <div className='productimagecontainer'>
               <Link to={`/products/${product.id}`}>
                 <div className='productimage'>
-                  <img src={`${process.env.PUBLIC_URL}/${imageurl}`} alt={product.title}className='productimage'/>
+                  <img src={`${process.env.PUBLIC_URL}/${product.image}`} alt={product.title}className='productimage'/>
                 </div></Link>
                 <div className='icons'>
                   <div className='icon'>

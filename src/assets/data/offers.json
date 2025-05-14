@@ -1,0 +1,53 @@
+[
+  {
+    "id": 9,
+    "image": "/assets/images/Gamepad.png",
+    "wishicon": "/assets/images/Wishlist (1).svg",
+    "quickview": "/assets/images/Quick View.svg",
+    "title": "HAVIT HV-G92 Gamepad",
+    "price": "$120",
+    "actualprice": "$160",
+    "rating": "/assets/images/Five Star.png",
+    "comments": 88,
+    "offer": true,
+    "offerPercent": "-40%"
+  },
+  {
+    "id": 10,
+    "image": "/assets/images/wiredKeyboard.png",
+    "wishicon": "/assets/images/Wishlist (1).svg",
+    "quickview": "/assets/images/Quick View.svg",
+    "title": "AK-900 Wired Keyboard",
+    "price": "$960",
+    "actualprice": "$1160",
+    "rating": "/assets/images/Four Star.png",
+    "comments": 75,
+    "offer": true,
+    "offerPercent": "-35%"
+  },
+  {
+    "id": 11,
+    "image": "/assets/images/gamingMonitor.png",
+    "wishicon": "/assets/images/Wishlist (1).svg",
+    "quickview": "/assets/images/Quick View.svg",
+    "title": "IPS LCD Gaming Monitor",
+    "price": "$370",
+    "actualprice": "$400",
+    "rating": "/assets/images/Five Star.png",
+    "comments": 99,
+    "offer": true,
+    "offerPercent": "-30%"
+  },
+  {
+    "id": 12,
+    "image": "/assets/images/CPU.png",
+    "wishicon": "/assets/images/Wishlist (1).svg",
+    "quickview": "/assets/images/Quick View.svg",
+    "title": "RGB liquid CPU Cooler",
+    "price": "$160",
+    "actualprice": "$170",
+    "rating": "/assets/images/Four Half Star.png",
+    "comments": 65,
+    "offer": false
+  }
+]

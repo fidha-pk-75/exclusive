@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/images/cesar.png",
+    "wishicon": "/assets/images/Wishlist (1).svg",
+    "quickview": "/assets/images/Quick View.svg",
+    "title": "Breed Dry Dog Food",
+    "price": "$100",
+    "rating": "/assets/images/Three Star.png",
+    "comments": 35,
+    "isNew": false,
+    "color": [],
+    "category": "Pet's food "
+  },
+  {
+    "id": 2,
+    "image": "/assets/images/camera.png",
+    "wishicon": "/assets/images/Wishlist (1).svg",
+    "quickview": "/assets/images/Quick View.svg",
+    "title": "CANON EOS DSLR Camera",
+    "price": "$360",
+    "rating": "/assets/images/Four Star.png",
+    "comments": 95,
+    "isNew": false,
+    "color": [],
+    "category": "Camara"
+  },
+  {
+    "id": 3,
+    "image": "/assets/images/laptop.png",
+    "wishicon": "/assets/images/Wishlist (1).svg",
+    "quickview": "/assets/images/Quick View.svg",
+    "title": "ASUS FHD Gaming Laptop",
+    "price": "$700",
+    "rating": "/assets/images/Five Star.png",
+    "comments": 325,
+    "color": [],
+    "category": "Computers"
+  },
+  {
+    "id": 4,
+    "image": "/assets/images/curology.png",
+    "wishicon": "/assets/images/Wishlist (1).svg",
+    "quickview": "/assets/images/Quick View.svg",
+    "title": "Curology Product Set ",
+    "price": "$500",
+    "rating": "/assets/images/Four Star.png",
+    "comments": 145,
+    "isNew": false,
+    "color": [],
+    "category": "Curology"
+  },
+  {
+    "id": 5,
+    "image": "/assets/images/electric car.png",
+    "wishicon": "/assets/images/Wishlist (1).svg",
+    "quickview": "/assets/images/Quick View.svg",
+    "title": "Kids Electric Car",
+    "price": "$960",
+    "rating": "/assets/images/Five Star.png",
+    "comments": 65,
+    "isNew": true,
+    "color": [
+      "#FB1314",
+      "#DB4444"
+    ],
+    "category": "Toys"
+  },
+  {
+    "id": 6,
+    "image": "/assets/images/boots.png",
+    "wishicon": "/assets/images/Wishlist (1).svg",
+    "quickview": "/assets/images/Quick View.svg",
+    "title": "Jr. Zoom Soccer Cleats",
+    "price": "$1160",
+    "rating": "/assets/images/Five Star.png",
+    "comments": 35,
+    "isNew": false,
+    "color": [
+      "#EEFF61",
+      "#DB4444"
+    ],
+    "category": "boots"
+  },
+  {
+    "id": 7,
+    "image": "/assets/images/blackgampad.png",
+    "wishicon": "/assets/images/Wishlist (1).svg",
+    "quickview": "/assets/images/Quick View.svg",
+    "title": "GP11 Shooter USB Gamepad",
+    "price": "$660",
+    "rating": "/assets/images/Four Half Star.png",
+    "comments": 55,
+    "isNew": true,
+    "color": [
+      "#000000",
+      "#DB4444"
+    ],
+    "category": "Gaming"
+  },
+  {
+    "id": 8,
+    "image": "/assets/images/jacket.png",
+    "wishicon": "/assets/images/Wishlist (1).svg",
+    "quickview": "/assets/images/Quick View.svg",
+    "title": "Quilted Satin Jacket",
+    "price": "$660",
+    "rating": "/assets/images/Four Half Star.png",
+    "comments": 55,
+    "isNew": false,
+    "color": [
+      "#184A48",
+      "#DB4444"
+    ],
+    "category": "Jacket"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "imageurl": "/assets/images/Category-CellPhone.svg",
+    "title": "Phones"
+  },
+  {
+    "imageurl": "/assets/images/Category-Computer.svg",
+    "title": "Computers"
+  },
+  {
+    "imageurl": "/assets/images/Category-CellPhone.svg",
+    "title": "SmartWatch"
+  },
+  {
+    "imageurl": "/assets/images/Category-Headphone.svg",
+    "title": "HeadPhones"
+  },
+  {
+    "imageurl": "/assets/images/Category-Gamepad.svg",
+    "title": "Gaming"
+  },
+  {
+    "imageurl": "/assets/images/Category-Camera.svg",
+    "title": "Camara"
+  }
+]

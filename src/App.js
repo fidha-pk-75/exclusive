@@ -6,7 +6,7 @@ import Product from "./components/screens/Product";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/exclusive">
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="products" element={<Products />} />

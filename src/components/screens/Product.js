@@ -51,7 +51,7 @@ function Product() {
           </div>
 
           {item.offerPercent && (<span className='offerpercent'>{item.offerPercent}</span>)}
-          {hoveredindex === index &&(<a href='/'><button className='addtocart'>Add To Cart</button></a>)}
+          {hoveredindex === index &&(<button className='addtocart'>Add To Cart</button>)}
 
         </div>
         <div className='pricedivv'>

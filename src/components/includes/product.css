@@ -534,6 +534,7 @@ body {
 }
 
 .addtocart {
+  cursor: pointer;
   display: flex;
   width: 100%;
   height: 41px;

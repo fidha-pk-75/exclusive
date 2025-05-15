@@ -34,7 +34,7 @@ function Products() {
                 </div>
                 {offer.isNew && <span className='label'>NEW</span> }
                 {offer.offer && <span className='offerpercent'>{offer.offerPercent}</span>}
-                {hoveredindex === index && (<a href='/'><button className='addtocart'>Add To Cart</button></a>)}
+                {hoveredindex === index && (<button className='addtocart'>Add To Cart</button>)}
                 
                 
               </div>

@@ -63,7 +63,7 @@ export default function Homepage() {
                 </div>
                 
                 {product.isNew && <span className='label'>NEW</span> }
-                {hoveredindex === index && (<a href='/'><button className='addtocart'>Add To Cart</button></a>)}
+                {hoveredindex === index && (<button className='addtocart'>Add To Cart</button>)}
                 
                 
               </div>

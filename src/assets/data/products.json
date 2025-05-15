@@ -32,7 +32,7 @@
     "quickview": "/assets/images/Quick View.svg",
     "title": "ASUS FHD Gaming Laptop",
     "price": "$700",
-    "rating": "/assets/images/Five Star.png",
+    "rating": "/assets/images/Five star.png",
     "comments": 325,
     "color": [],
     "category": "Computers"
@@ -57,7 +57,7 @@
     "quickview": "/assets/images/Quick View.svg",
     "title": "Kids Electric Car",
     "price": "$960",
-    "rating": "/assets/images/Five Star.png",
+    "rating": "/assets/images/Five star.png",
     "comments": 65,
     "isNew": true,
     "color": [
@@ -73,7 +73,7 @@
     "quickview": "/assets/images/Quick View.svg",
     "title": "Jr. Zoom Soccer Cleats",
     "price": "$1160",
-    "rating": "/assets/images/Five Star.png",
+    "rating": "/assets/images/Five star.png",
     "comments": 35,
     "isNew": false,
     "color": [

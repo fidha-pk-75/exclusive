@@ -944,6 +944,8 @@ body {
   }
 }
 
+/* updated styles for responsiveness */
+
 @media(max-width:1435px) {
   .productimagecontainer {
     padding: 20px 25px;

@@ -475,7 +475,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding-top: 53px;
-  /* height: 848px; */
 }
 
 .productsgrid {
@@ -944,8 +943,6 @@ body {
   }
 }
 
-/* updated styles for responsiveness */
-
 @media(max-width:1435px) {
   .productimagecontainer {
     padding: 20px 25px;
@@ -1244,14 +1241,18 @@ body {
     gap: 10px;
   }
 
-  .pdetails .Services {
-    height: 150px;
-    width: 340px;
+  .pdetails {
+    .Services {
+      height: 150px;
+      width: 340px;
+    }
   }
 
-  .pdetails.Services {
-    hr {
-      width: 340px;
+  .pdetails {
+    .Services {
+      hr {
+        width: 340px;
+      }
     }
   }
 

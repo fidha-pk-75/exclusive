@@ -133,7 +133,7 @@ export default function Homepage() {
           </div>
 
           <hr className='gridHr'/>
-          <div className='viewdiv'><a href='products'style={{textDecoration:'none'}}><button className='viewAllProducts'>View All Products</button></a></div>
+          <div className='viewdiv'><Link to='/products'style={{textDecoration:'none'}}><button className='viewAllProducts'>View All Products</button></Link></div>
           
         </div>
         <div className='helpdesk'>

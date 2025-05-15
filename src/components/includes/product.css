@@ -1244,18 +1244,14 @@ body {
     gap: 10px;
   }
 
-  .pdetails {
-    .Services {
-      height: 150px;
-      width: 340px;
-    }
+  .pdetails .Services {
+    height: 150px;
+    width: 340px;
   }
 
-  .pdetails {
-    .Services {
-      hr {
-        width: 340px;
-      }
+  .pdetails.Services {
+    hr {
+      width: 340px;
     }
   }
 

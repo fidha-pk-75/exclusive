@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/exclusive/static/css/main.c5b8941e.css",
+    "main.css": "/exclusive/static/css/main.db9d63f1.css",
     "main.js": "/exclusive/static/js/main.23cf241e.js",
     "static/media/hero_endframe__cvklg0xk3w6e_large 2.jpg": "/exclusive/static/media/hero_endframe__cvklg0xk3w6e_large 2.66deaea5a2b400060e32.jpg",
     "static/media/1200px-Apple_gray_logo 1.svg": "/exclusive/static/media/1200px-Apple_gray_logo 1.45d1b58a33c2669e6b98fa884d729572.svg",
@@ -21,11 +21,11 @@
     "static/media/icon-send.svg": "/exclusive/static/media/icon-send.d0df9dfb5016978671a92d173ccc6768.svg",
     "static/media/Icon-Facebook.svg": "/exclusive/static/media/Icon-Facebook.90636f60afb9f3e2e04d8c82e843c216.svg",
     "static/media/Vector (14).svg": "/exclusive/static/media/Vector (14).c4bd0c57b9ea40fe2665365748b14b45.svg",
-    "main.c5b8941e.css.map": "/exclusive/static/css/main.c5b8941e.css.map",
+    "main.db9d63f1.css.map": "/exclusive/static/css/main.db9d63f1.css.map",
     "main.23cf241e.js.map": "/exclusive/static/js/main.23cf241e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5b8941e.css",
+    "static/css/main.db9d63f1.css",
     "static/js/main.23cf241e.js"
   ]
 }

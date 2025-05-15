@@ -1,12 +1,12 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes  } from "react-router-dom";
 import Homepage from "./components/screens/Homepage";
 import Products from "./components/screens/Products";
 import Product from "./components/screens/Product";
 
 function App() {
   return (
-    <Router basename="/exclusive">
+    <Router>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="products" element={<Products />} />

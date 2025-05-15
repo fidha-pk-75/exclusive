@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/exclusive/static/css/main.5eb0093a.css",
-    "main.js": "/exclusive/static/js/main.5499f4b6.js",
+    "main.js": "/exclusive/static/js/main.af9b559f.js",
     "static/media/hero_endframe__cvklg0xk3w6e_large 2.jpg": "/exclusive/static/media/hero_endframe__cvklg0xk3w6e_large 2.66deaea5a2b400060e32.jpg",
     "static/media/1200px-Apple_gray_logo 1.svg": "/exclusive/static/media/1200px-Apple_gray_logo 1.45d1b58a33c2669e6b98fa884d729572.svg",
     "static/media/Icon-Twitter.svg": "/exclusive/static/media/Icon-Twitter.585c2165caacfb295213f8e98daa5f9c.svg",
@@ -22,10 +22,10 @@
     "static/media/Icon-Facebook.svg": "/exclusive/static/media/Icon-Facebook.90636f60afb9f3e2e04d8c82e843c216.svg",
     "static/media/Vector (14).svg": "/exclusive/static/media/Vector (14).c4bd0c57b9ea40fe2665365748b14b45.svg",
     "main.5eb0093a.css.map": "/exclusive/static/css/main.5eb0093a.css.map",
-    "main.5499f4b6.js.map": "/exclusive/static/js/main.5499f4b6.js.map"
+    "main.af9b559f.js.map": "/exclusive/static/js/main.af9b559f.js.map"
   },
   "entrypoints": [
     "static/css/main.5eb0093a.css",
-    "static/js/main.5499f4b6.js"
+    "static/js/main.af9b559f.js"
   ]
 }

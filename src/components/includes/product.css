@@ -911,6 +911,8 @@ body {
     }
 
     .srvs {
+      display: flex;
+      flex-direction: column;
       padding-left: 16px;
       max-width: fit-content;
       display: flex;

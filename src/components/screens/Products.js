@@ -20,16 +20,16 @@ function Products() {
     <div className='productcontainer' key={index} onMouseEnter={() => setHoveredindex(index)} onMouseLeave={() => setHoveredindex(null)}>
       <div className='productimagecontainer'>
                 <div className='productimage'>
-                <Link to={`/products/${offer.id}`}><img src={offer.image} alt={offer.title}/></Link>
+                <Link to={`/products/${offer.id}`}><img src={`${process.env.PUBLIC_URL}/${offer.image}`} alt={offer.title}/></Link>
 
                   
                 </div>
                 <div className='icons'>
                   <div className='icon'>
-                    <img className='like' src={offer.wishicon} alt='wishIcon'/>
+                    <img className='like' src={`${process.env.PUBLIC_URL}/${offer.wishicon}`} alt='wishIcon'/>
                   </div>
                   <div className='icon'>
-                    <img className='quickview'src={offer.quickview} alt='QuickView'/>
+                    <img className='quickview'src={`${process.env.PUBLIC_URL}/${offer.quickview}`} alt='QuickView'/>
                   </div>
                 </div>
                 {offer.isNew && <span className='label'>NEW</span> }
@@ -49,7 +49,7 @@ function Products() {
         
             ) : (
               <>
-                <img src={offer.rating} alt='rating' />
+                <img src={`${process.env.PUBLIC_URL}/${offer.rating}`} alt='rating' />
                 <span className='comments'>({offer.comments})</span>
               </>
             )}
@@ -57,7 +57,7 @@ function Products() {
 
           {offer.actualprice && (
             <div className='feedback'>
-              <img src={offer.rating} alt='rating' />
+              <img src={`${process.env.PUBLIC_URL}/${offer.rating}`} alt='rating' />
               <span className='comments'>({offer.comments})</span>
             </div>
           )}

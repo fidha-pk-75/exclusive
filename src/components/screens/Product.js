@@ -39,14 +39,14 @@ function Product() {
       <div className='productcontainer' key={index} onMouseEnter={()=>setHoveredindex(index)} onMouseLeave={()=>setHoveredindex(null)}>
         <div className='productimagecontainer'>
           <div className='productimage'>
-          <Link to={`/products/${item.id}`}><img src={item.image} alt={item.title}/></Link>
+          <Link to={`/products/${item.id}`}><img src={`${process.env.PUBLIC_URL}/${item.image}`} alt={item.title}/></Link>
           </div>
           <div className='icons'>
             <div className='icon'>
-              <img className='like' src={item.wishicon} alt='wishIcon'/>
+              <img className='like' src={`${process.env.PUBLIC_URL}/${item.wishicon}`} alt='wishIcon'/>
             </div>
             <div className='icon'>
-              <img className='quickview'src={item.quickview} alt='QuickView'/>
+              <img className='quickview'src={`${process.env.PUBLIC_URL}/${item.quickview}`} alt='QuickView'/>
             </div>   
           </div>
 
@@ -61,7 +61,7 @@ function Product() {
             <span className='actualprice'>{item.actualprice}</span>
           </div>
           <div className='feedback'>
-                <img src={item.rating} alt='rating' />
+                <img src={`${process.env.PUBLIC_URL}/${item.rating}`} alt='rating' />
                 <span className='comments'>({item.comments})</span>
               </div>
         </div>
@@ -89,12 +89,12 @@ function Product() {
 
         <div className='productimganddetails'>
           <div className='pimage'>
-            <img src={product.image} alt='productimage'className='image'/>
+            <img src={`${process.env.PUBLIC_URL}/${product.image}`} alt='productimage'className='image'/>
           </div>
           <div className='pdetails'>
             <h5 className='title'>{product.title}</h5>
             <div className='productstatus'>
-              <img src={product.rating}alt='img'/>
+              <img src={`${process.env.PUBLIC_URL}/${product.rating}`}alt='img'/>
               <span className='comments'>({product.comments} Reviews)</span>
               <span className='nothing'></span>
               <span className='stock'>

@@ -27,7 +27,7 @@ export default function Homepage() {
   const rendercategories = ()=>{
     return categories.map((category, index) => (
       <div className='category' key={index} onClick={()=>setselectedcatogory(category.title)}>
-        <img className='categoryIcon' src={category.imageurl} alt={`${category.title} icon`} />
+        <img className='categoryIcon' src={`${process.env.PUBLIC_URL}/${category.imageurl}`} alt={`${category.title} icon`} />
         <p className='categoryName'>{category.title}</p>
       </div>
     ));
@@ -54,10 +54,10 @@ export default function Homepage() {
                 </div></Link>
                 <div className='icons'>
                   <div className='icon'>
-                    <img className='like' src={product.wishicon} alt='wishIcon'/>
+                    <img className='like' src={`${process.env.PUBLIC_URL}/${product.wishicon}`} alt='wishIcon'/>
                   </div>
                   <div className='icon'>
-                    <img className='quickview'src={product.quickview} alt='QuickView'/>
+                    <img className='quickview'src={`${process.env.PUBLIC_URL}/${product.quickview}`} alt='QuickView'/>
                   </div>
                   
                 </div>
@@ -69,7 +69,7 @@ export default function Homepage() {
               </div>
               <div className='productdetails'>
                 <p className='ptitle'>{product.title}</p>
-                <div className='pricediv'><span className='price'>{product.price} </span><img src={product.rating} alt='rating'/><span className='comments'>({product.comments})</span></div>
+                <div className='pricediv'><span className='price'>{product.price} </span><img src={`${process.env.PUBLIC_URL}/${product.rating}`} alt='rating'/><span className='comments'>({product.comments})</span></div>
                 <div className='colordiv'>
                   {product.color.map((col,index)=>(
                     index === 0 ? <div className='whitedive' key={index}><div

@@ -1242,19 +1242,13 @@ body {
     gap: 10px;
   }
 
-  .pdetails {
-    .Services {
+  .pdetails .Services {
       height: 150px;
       width: 340px;
-    }
   }
 
-  .pdetails {
-    .Services {
-      hr {
+  .pdetails .Services  hr{
         width: 340px;
-      }
-    }
   }
 
   .pdetails {
@@ -1606,6 +1600,7 @@ body {
       width: 300px;
 
       .srvs {
+        display: flex;
         padding-left: 5px;
         gap: 5px;
 

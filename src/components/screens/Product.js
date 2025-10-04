@@ -14,6 +14,7 @@ function Product() {
   const[items,setItems] = useState([]);
   const[product,setProduct] = useState(null)
   const { id } = useParams();
+  const[likedItems,setLikedItems] = useState([])
 
 
   useEffect(() => {
@@ -33,6 +34,14 @@ function Product() {
       </>
     );
   }
+
+  const handleLike = (id) => {
+  if (likedItems.includes(id)) {   
+    setLikedItems(likedItems.filter(itemId => itemId !== id));
+  } else {
+    setLikedItems([...likedItems, id]);
+  }
+};
   
   const renderrelateditems = ()=>{
     return items.map((item,index)=>(
@@ -42,8 +51,10 @@ function Product() {
           <Link to={`/products/${item.id}`}><img src={`${process.env.PUBLIC_URL}/${item.image}`} alt={item.title}/></Link>
           </div>
           <div className='icons'>
-            <div className='icon'>
-              <img className='like' src={`${process.env.PUBLIC_URL}/${item.wishicon}`} alt='wishIcon'/>
+            <div className='icon' onClick={()=>handleLike(item.id)}> 
+              {likedItems.includes(item.id)
+               ? (<i className="fa-solid fa-heart" style={{ color: '#e21212' }}></i>)
+               : (<i className="fa-regular fa-heart"></i>)}
             </div>
             <div className='icon'>
               <img className='quickview'src={`${process.env.PUBLIC_URL}/${item.quickview}`} alt='QuickView'/>

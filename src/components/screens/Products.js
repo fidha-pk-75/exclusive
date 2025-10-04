@@ -9,11 +9,20 @@ import { Link } from 'react-router-dom';
 function Products() {
   const [hoveredindex,setHoveredindex] = useState('');
   const[offers,setoffers] = useState([]);
+  const [likedItems, setLikedItems] = useState([]);
    
 
   useEffect(()=>{
     setoffers(offeritems);
   },[])
+
+  const handleLike = (id) => {
+  if (likedItems.includes(id)) {
+    setLikedItems(likedItems.filter(itemId => itemId !== id));
+  } else {
+    setLikedItems([...likedItems, id]);
+  }
+};
 
   const renderProducts1 = () => {
   return offers.map((offer, index) => (
@@ -25,8 +34,12 @@ function Products() {
                   
                 </div>
                 <div className='icons'>
-                  <div className='icon'>
-                    <img className='like' src={`${process.env.PUBLIC_URL}/${offer.wishicon}`} alt='wishIcon'/>
+                  <div className="icon" onClick={() => handleLike(offer.id)} style={{ cursor: 'pointer' }}>
+                    {likedItems.includes(offer.id) ? (
+                      <i className="fa-solid fa-heart" style={{ color: '#e21212' }}></i>
+                    ) : (
+                      <i className="fa-regular fa-heart"></i>
+                    )}
                   </div>
                   <div className='icon'>
                     <img className='quickview'src={`${process.env.PUBLIC_URL}/${offer.quickview}`} alt='QuickView'/>
@@ -80,6 +93,7 @@ function Products() {
     </div>
   ));
 };
+
 
 
 

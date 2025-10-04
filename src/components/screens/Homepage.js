@@ -20,10 +20,19 @@ export default function Homepage() {
   const [hoveredindex,setHoveredindex] =useState([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedcategory,setselectedcatogory]=useState(null)
+  const [likedItems,setLikedItems] = useState([])
   useEffect(() => {
     setCategories(categoriesData);
     setProducts(productsData);
   }, []); 
+
+  const handleLike = (id) => {
+  if (likedItems.includes(id)) {
+    setLikedItems(likedItems.filter(itemId => itemId !== id));
+  } else {
+    setLikedItems([...likedItems, id]);
+  }
+};
   const rendercategories = ()=>{
     return categories.map((category, index) => (
       <div className='category' key={index} onClick={()=>setselectedcatogory(category.title)}>
@@ -53,8 +62,11 @@ export default function Homepage() {
                   <img src={`${process.env.PUBLIC_URL}/${product.image}`} alt={product.title}className='productimage'/>
                 </div></Link>
                 <div className='icons'>
-                  <div className='icon'>
-                    <img className='like' src={`${process.env.PUBLIC_URL}/${product.wishicon}`} alt='wishIcon'/>
+                  <div className='icon' onClick={()=> handleLike(product.id)}>
+                    {likedItems.includes(product.id)
+                    ? (<i className="fa-solid fa-heart" style={{ color: '#e21212' }}></i>)
+                    : (<i className="fa-regular fa-heart"></i>)
+                    }
                   </div>
                   <div className='icon'>
                     <img className='quickview'src={`${process.env.PUBLIC_URL}/${product.quickview}`} alt='QuickView'/>
